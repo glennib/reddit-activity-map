@@ -14,6 +14,8 @@ class SubredditInformation:
         for submission in self.subreddit.get_new(limit=submission_count):
             submissions.append(submission)
 
+        self.number_of_submissions = len(submissions)
+
         timestamps_utc = []
         for submission in submissions:
             timestamps_utc.append(submission.created_utc)

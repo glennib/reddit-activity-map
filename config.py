@@ -1,3 +1,3 @@
 user_agent = 'Information gatherer, by /u/gitarg'
-subreddit = 'russiabot'
-submission_count = 500
+subreddit = 'russia'
+submission_count = 2000
