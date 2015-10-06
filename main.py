@@ -1,14 +1,45 @@
 import config
 from SubredditInformation import *
+from UserInformation import *
 import praw
 from pprint import pprint
 
 r = praw.Reddit(user_agent=config.user_agent)
 
-subreddit_info = SubredditInformation(r, config.subreddit, config.submission_count)
+# subreddit_info = SubredditInformation(r, config.subreddit, config.submission_count)
+#
+# pprint(subreddit_info.hours)
 
-for hour in range(24):
-    print(str(hour).zfill(2) + ':00-' + str(hour).zfill(2) + ':59 - ' + str(subreddit_info.hours[hour]).rjust(
-        3) + ' posts')
+# for hour in range(24):
+#     print(str(hour).zfill(2) + ':00-' + str(hour).zfill(2) + ':59 - ' + str(subreddit_info.hours[hour]).rjust(
+#         3) + ' posts')
+#
+# print('\nTotal of ' + str(subreddit_info.number_of_submissions) + ' submissions found.')
+user_name = 'gitarg'
 
-print('\nTotal of ' + str(subreddit_info.number_of_submissions) + ' submissions found.')
+user_info = UserInformation(r, user_name)
+
+comments = user_info.comments
+submissions = user_info.submissions
+
+l = []
+l2 = []
+
+for key in comments:
+    l.append((key, comments[key]))
+
+for key in submissions:
+    l2.append((key, submissions[key]))
+
+l.sort(key=lambda node: node[1], reverse=True)
+l2.sort(key=lambda node: node[1], reverse=True)
+
+print("\n User info for: {}\n".format(user_name))
+print("Comments:\n")
+pprint(l)
+
+print("\nSubmissions:\n")
+pprint(l2)
+
+print("\nCountries:\n")
+pprint(user_info.countries)
