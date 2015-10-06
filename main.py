@@ -19,27 +19,27 @@ user_name = 'gitarg'
 
 user_info = UserInformation(r, user_name)
 
-comments = user_info.comments
-submissions = user_info.submissions
+comments = user_info.get_subreddits_of_comments()
+submissions = user_info.get_subreddits_of_submissions()
 
-l = []
-l2 = []
+comment_list = []
+submission_list = []
 
 for key in comments:
-    l.append((key, comments[key]))
+    comment_list.append((key, comments[key]))
 
 for key in submissions:
-    l2.append((key, submissions[key]))
+    submission_list.append((key, submissions[key]))
 
-l.sort(key=lambda node: node[1], reverse=True)
-l2.sort(key=lambda node: node[1], reverse=True)
+comment_list.sort(key=lambda node: node[1], reverse=True)
+submission_list.sort(key=lambda node: node[1], reverse=True)
 
 print("\n User info for: {}\n".format(user_name))
 print("Comments:\n")
-pprint(l)
+pprint(comment_list)
 
 print("\nSubmissions:\n")
-pprint(l2)
+pprint(submission_list)
 
 print("\nCountries:\n")
-pprint(user_info.countries)
+pprint(user_info.get_countries_mentioned())

@@ -1,0 +1,205 @@
+- Afghanistan
+- Albania
+- Algeria
+- American Samoa
+- Andorra
+- Angola
+- Anguilla
+- Antigua and Barbuda
+- Argentina
+- Armenia
+- Australia
+- Austria
+- Azerbajan
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Belarus
+- Belgium
+- Belize
+- Benin
+- Bermuda
+- Bhutan
+- Bolivia
+- Bosnia and Herzegovina
+- Botswana
+- Brazil
+- Brunei Darussalam
+- Bulgaria
+- Burkina Faso
+- Burundi
+- Cambodia
+- Cameroon
+- Canada
+- Chile
+- China
+- Colombia
+- Costa Rica
+- Cuba
+- Cyprus
+- Czech Republic
+- Democratic Republic Congo
+- Denmark
+- Djibouti
+- Dominican Republic
+- East Timor
+- Ecuador
+- Egypt
+- El Salvador
+- England
+- Eritrea
+- Estonia
+- Ethiopia
+- Faroe Islands
+- Fiji
+- Finland
+- France
+- French Polynesia
+- Gambia
+- Georgia (Sakartvelo)
+- Germany
+- Gabon
+- Ghana
+- Greece
+- Greenland - Kalaallit Nunaat
+- Grenada
+- Gouadeloupe
+- Guam
+- Guatemala
+- Guernsey
+- Guyana
+- Guyane
+- Haiti
+- Honduras
+- Hong Kong
+- Hrvatska (Croatia)
+- Hungary
+- Iceland
+- India
+- Indonesia
+- Iran
+- Iraq
+- Ireland
+- Israel
+- Italy
+- Jamaica
+- Japan
+- Jordan
+- Kazakhstan
+- Kenya
+- Korea Republic
+- Kosovo
+- Kurdistan
+- Kuwait
+- Kyrgyzstan
+- Laos
+- Latvia
+- Lebanon
+- Lesotho
+- Liberia
+- Libyan Arab Jamahiriya
+- Liechtenstein
+- Lithuania
+- Luxembourg
+- Macau
+- Macedonia
+- Malawi
+- Malaysia
+- Mali
+- Malta
+- Marshall Islands
+- Mauritania
+- Martinique
+- Mauritius
+- Mexico
+- Micronesia
+- Moldova
+- Monaco
+- Mongolia
+- Morocco
+- Mozambique
+- Namibia
+- Nepal
+- Netherlands
+- Netherlands Antilles
+- New Caledonia
+- New Zealand (Aotearoa)
+- Nicaragua
+- Nigeria
+- Niue
+- Norfolk Island
+- Northern Ireland
+- Northern Mariana Islands
+- Norway
+- Oman
+- Pakistan
+- Palau
+- Palestina
+- Panama
+- Papua New Guinea
+- Paraguay
+- Peru
+- Philippines
+- Portugal
+- Puerto Rico
+- Qatar
+- Reunion
+- Romania
+- Russian Federation (AsianPart)
+- Russian Federation (European Part)
+- Rwanda
+- Saint Kitts and Nevis
+- Saint Vincent and the Grenadines
+- Samoa (American Samoa)
+- Samoa (Western Samoa)
+- San Marino
+- Saudi Arabia
+- Scotland
+- Senegal
+- Seychelles
+- Sierra Leone
+- Singapore
+- Slovakia
+- Slovenia
+- Solomon Islands
+- Somalia
+- Somaliland
+- South Africa
+- Spain
+- Sri Lanka
+- Sudan
+- Suriname
+- Svalbard and Jan Mayen
+- Swaziland
+- Sweden
+- Switzerland
+- Syrian Arab Republic
+- Taiwan
+- Tanzania
+- Thailand
+- Tibet
+- Togo
+- Tonga
+- Trinidad and Tobago
+- Tunisia
+- Turkey
+- Turkmenistan
+- Turks and Caicos Islands
+- Uganda
+- Ukraine
+- United Arab Emirates
+- United Kingdom
+- Uruguay
+- USA
+- Uzbekistan
+- Vatican City State - Holy See
+- Venezuela
+- Viet Nam
+- Virgin Islands (British)
+- Virgin Islands (U.S.)
+- Wales
+- Yemen
+- Yugoslavia
+- Zambia
+- Zimbabwe
