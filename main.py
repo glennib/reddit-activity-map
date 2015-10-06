@@ -10,7 +10,7 @@ r = praw.Reddit(user_agent=config.user_agent)
 #
 # pprint(subreddit_info.hours)
 
-user_name = 'gallowboob'
+user_name = 'gitarg'
 
 user_info = UserInformation(r, user_name)
 
@@ -35,3 +35,6 @@ pprint(l)
 
 print("\nSubmissions:\n")
 pprint(l2)
+
+print("\nCountries:\n")
+pprint(user_info.countries)
