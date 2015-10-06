@@ -15,7 +15,7 @@ r = praw.Reddit(user_agent=config.user_agent)
 #         3) + ' posts')
 #
 # print('\nTotal of ' + str(subreddit_info.number_of_submissions) + ' submissions found.')
-user_name = 'gitarg'
+user_name = 'hmlangs'
 
 user_info = UserInformation(r, user_name)
 
@@ -42,4 +42,13 @@ print("\nSubmissions:\n")
 pprint(submission_list)
 
 print("\nCountries:\n")
-pprint(user_info.get_countries_mentioned())
+
+country_list = []
+countries = user_info.get_countries_mentioned()
+
+for key in countries:
+    country_list.append((key, countries[key]))
+
+country_list.sort(key=lambda t: t[1], reverse=True)
+
+pprint(country_list)
