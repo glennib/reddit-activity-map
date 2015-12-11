@@ -15,7 +15,7 @@ r = praw.Reddit(user_agent=config.user_agent)
 #         3) + ' posts')
 #
 # print('\nTotal of ' + str(subreddit_info.number_of_submissions) + ' submissions found.')
-user_name = 'hmlangs'
+user_name = 'gitarg'
 
 user_info = UserInformation(r, user_name)
 
